@@ -1,28 +1,32 @@
 {
-  "name": "redis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/a13821190779/redis.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/a13821190779/redis/issues"
-  },
-  "homepage": "https://github.com/a13821190779/redis#readme",
-  "dependencies": {
-    "bluebird": "^3.5.1",
-    "express": "^4.16.3",
-    "node": "^9.10.1",
-    "nodemon": "^1.17.3",
-    "redis": "^2.8.0"
-  }
+    "name": "redis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./src/app.js",
+        "mongod": "mongod -f src/config/mongod.conf.yaml"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/a13821190779/redis.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/a13821190779/redis/issues"
+    },
+    "homepage": "https://github.com/a13821190779/redis#readme",
+    "dependencies": {
+        "bluebird": "^3.5.1",
+        "express": "^4.16.3",
+        "express-graphql": "^0.6.12",
+        "graphql": "^0.13.2",
+        "mongoose": "^5.0.14",
+        "node": "^9.10.1",
+        "nodemon": "^1.17.3",
+        "redis": "^2.8.0"
+    }
 }

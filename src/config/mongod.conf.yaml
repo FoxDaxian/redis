@@ -1,0 +1,12 @@
+systemLog:
+    verbosity: 0
+    quiet: true
+    traceAllExceptions: true
+    path: /Users/fox/mongod/logs/mongod.log
+    logAppend: false
+    timeStampFormat: iso8601-local
+    destination: file
+storage:
+    dbPath: /Users/fox/mongod/db
+processManagement:
+    fork: true
